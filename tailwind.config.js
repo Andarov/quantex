@@ -11,7 +11,7 @@ export default {
       },
       colors:{
         'main-bg': '#030d14',
-        'header-bg': '#081219',
+        'header-bg': '#08002f',
         'light-green': '#56AB91',
       },
       maxWidth:{
