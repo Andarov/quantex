@@ -8,6 +8,14 @@ export default {
     extend: {
       fontFamily:{
         'montserrat': ['Montserrat', 'sans-serif'],
+      },
+      colors:{
+        'main-bg': '#030d14',
+        'header-bg': '#081219',
+        'light-green': '#56AB91',
+      },
+      maxWidth:{
+        'base': '1440px'
       }
     },
   },
