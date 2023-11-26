@@ -3,6 +3,7 @@ import Faq from '../components/Faq'
 import Hero from '../components/Hero'
 import Info from '../components/Info'
 import Investment from '../components/Investment'
+import MainFaq from '../components/MainFaq'
 import Profitability from '../components/Profitability'
 import Trusted from '../components/Trusted'
 
@@ -15,6 +16,7 @@ const Home = () => {
       <Investment/>
       <Info/>
       <Profitability/>
+      <MainFaq/>
     </>
   )
 }

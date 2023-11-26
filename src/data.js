@@ -60,3 +60,57 @@ export const tabs = [
     desc: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi quos culpa quaerat? Omnis pariatur veniam dicta possimus voluptates autem magni, mollitia cum fugit voluptatum nihil doloremque laboriosam eaque quae quos.`,
   },
 ];
+
+
+export const mainFaqs = [
+  {
+    id: 1,
+    title: 'What’s trading bot?',
+    text: 'A customizable crypto bot that helps traders to create various automated trading strategies. Compared with traditional manual trading, trading bot can execute orders with lower risks and costs, while grasping the best trading timings. '
+  },
+  {
+    id: 2,
+    title: 'What is Signal Marketplace?',
+    text: 'A customizable crypto bot that helps traders to create various automated trading strategies. Compared with traditional manual trading, trading bot can execute orders with lower risks and costs, while grasping the best trading timings. '
+  },
+  {
+    id: 3,
+    title: 'What’s spot grid bot?',
+    text: 'A customizable crypto bot that helps traders to create various automated trading strategies. Compared with traditional manual trading, trading bot can execute orders with lower risks and costs, while grasping the best trading timings. '
+  },
+  {
+    id: 4,
+    title: 'What’s futures grid bot?',
+    text: 'A customizable crypto bot that helps traders to create various automated trading strategies. Compared with traditional manual trading, trading bot can execute orders with lower risks and costs, while grasping the best trading timings. '
+  },
+  {
+    id: 5,
+    title: 'What’s futures grid bot?',
+    text: 'A customizable crypto bot that helps traders to create various automated trading strategies. Compared with traditional manual trading, trading bot can execute orders with lower risks and costs, while grasping the best trading timings. '
+  },
+  {
+    id: 6,
+    title: 'What’s Bot Marketplace?',
+    text: 'A customizable crypto bot that helps traders to create various automated trading strategies. Compared with traditional manual trading, trading bot can execute orders with lower risks and costs, while grasping the best trading timings. '
+  },
+  {
+    id: 7,
+    title: 'Safe and secure',
+    text: 'A customizable crypto bot that helps traders to create various automated trading strategies. Compared with traditional manual trading, trading bot can execute orders with lower risks and costs, while grasping the best trading timings. '
+  },
+  {
+    id: 8,
+    title: 'What’s futures grid bot?',
+    text: 'A customizable crypto bot that helps traders to create various automated trading strategies. Compared with traditional manual trading, trading bot can execute orders with lower risks and costs, while grasping the best trading timings. '
+  },
+  {
+    id: 9,
+    title: 'What’s futures grid bot?',
+    text: 'A customizable crypto bot that helps traders to create various automated trading strategies. Compared with traditional manual trading, trading bot can execute orders with lower risks and costs, while grasping the best trading timings. '
+  },
+  {
+    id: 10,
+    title: 'What’s futures grid bot?',
+    text: 'A customizable crypto bot that helps traders to create various automated trading strategies. Compared with traditional manual trading, trading bot can execute orders with lower risks and costs, while grasping the best trading timings. '
+  },
+]
