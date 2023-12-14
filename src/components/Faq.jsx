@@ -7,7 +7,7 @@ import "swiper/css";
 
 const Faq = () => {
   return (
-    <div className="py-10 flex flex-col-reverse justify-between items-center xl:flex-row">
+    <div className="py-5 flex flex-col-reverse justify-between items-center md:py-10 xl:flex-row">
       <ul className="hidden space-y-12 xl:block">
         {faqs.map((faq) => {
           return (

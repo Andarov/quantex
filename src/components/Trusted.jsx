@@ -14,11 +14,11 @@ import logo12 from '../img/logo12.png'
 
 const Trusted = () => {
   return (
-    <div className='py-10'>
+    <div className='py-5 md:py-10'>
         <div className="p-5 bg-header-bg rounded-xl">
             <p className='text-white/80 text-center text-lg font-semibold mb-6'>Trusted by <span className='text-light-green'>500,000</span> traders from</p>
 
-            <ul className='grid grid-cols-12 gap-10'>
+            <ul className='grid gap-10 grid-cols-3 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-10 2xl:grid-cols-12'>
                 <li>
                     <img src={logo1} alt="Trader" />
                 </li>
