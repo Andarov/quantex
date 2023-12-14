@@ -13,7 +13,7 @@ const Investment = () => {
   const [activeTab, setActiveTab] = React.useState("bots");
 
   return (
-    <div className="py-10 grid grid-cols-2 items-center gap-10">
+    <div className="flex flex-col-reverse py-5 lg:grid lg:grid-cols-2 items-center gap-10 md:py-10">
       {/* tabs */}
       <Tabs
         value={activeTab}
@@ -31,7 +31,7 @@ const Investment = () => {
               key={tab.value}
               value={tab.value}
               onClick={() => setActiveTab(tab.value)}
-              className={`p-3 ${
+              className={`px-1 py-3 text-xs sm:text-sm md:text-base md:p-3 ${
                 activeTab === tab.value
                   ? "text-white border-light-green border-b"
                   : "text-white/40"
@@ -46,19 +46,19 @@ const Investment = () => {
           {tabs.map((tab) => (
             <TabPanel key={tab.value} value={tab.value}>
               {tab.subtitle && (
-                <p className="text-white text-base mb-2 font-semibold">
+                <p className="text-white mb-2 font-semibold sm:text-sm md:text-base">
                   {tab.subtitle}
                 </p>
               )}
-              {tab.desc}
+              <p className="sm:text-sm md:text-base mb-5 lg:mb-0">{tab.desc}</p>
               {tab.cards &&
                 tab.cards.map((card) => {
                   return (
                     <div
-                      className={`w-2/3 text-white flex items-center justify-between p-5 rounded-md backdrop-blur-md ${
+                      className={`w-full text-white flex items-center justify-between p-3 rounded-md backdrop-blur-md lg:w-2/3 lg:p-5 ${
                         card.title === "BTC"
                           ? "bg-red-card"
-                          : "ml-auto -mt-5 bg-green-card"
+                          : "lg:ml-auto lg:-mt-5 bg-green-card"
                       }`}
                     >
                       <div className="flex items-center">
@@ -77,7 +77,7 @@ const Investment = () => {
                           <span className="text-white/50">{card.percent}</span>
                         </div>
                       </div>
-                      <img src={card.imgDeg} alt="" />
+                      <img className="hidden sm:block" src={card.imgDeg} alt="" />
                       <div className="flex flex-col items-center">
                         <span>{card.sum}</span>
                         <span className="text-white/50">{card.total}</span>
@@ -91,11 +91,11 @@ const Investment = () => {
       </Tabs>
       {/* content */}
       <div className="space-y-5">
-        <h2 className="text-[42px] leading-[91%] font-semibold">
+        <h2 className="text-2xl leading-[91%] font-semibold md:text-3xl lg:text-[42px]">
           Watch your <br /> cryptocurrency <br />{" "}
           <span className="text-light-green">investments grow</span>
         </h2>
-        <p className="text-white/50">
+        <p className="text-white/50 text-sm md:text-base">
           <strong className="text=white">
             From powerful trading bots to smart orders.
           </strong>
@@ -105,7 +105,7 @@ const Investment = () => {
             trading.
           </span>
         </p>
-        <Link className="inline-block rounded-md text-sm font-semibold px-8 py-3 bg-light-green">
+        <Link className="inline-block rounded-md text-sm font-semibold px-8 py-2 bg-light-green md:py-3">
           Start using bot
         </Link>
       </div>
