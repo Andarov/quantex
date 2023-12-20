@@ -8,7 +8,7 @@ const Header = () => {
   const [mobileManu, setMobileMenu] = useState(false);
 
   return (
-    <div className={`${mobileManu ? "min-h-screen fixed top-0 left-0 h-full w-full" : ""} flex flex-col`}>
+    <div className={`${mobileManu ? "min-h-screen fixed z-50 top-0 left-0 h-full w-full" : ""} flex flex-col`}>
       <header className="xl:py-6 shadow-md">
         <div className="w-full max-w-base mx-auto bg-header-bg py-6 px-6 rounded-xl flex justify-between items-center">
           <Link to="/" className="text-2xl font-semibold">
