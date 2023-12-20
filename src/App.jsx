@@ -6,6 +6,7 @@ import Bot from './pages/Bot'
 import Contact from './pages/Contact'
 import Home from './pages/Home'
 import News from './pages/News'
+import PageNotFound from './pages/PageNotFound'
 
 const App = () => {
   const router = createBrowserRouter(
@@ -17,6 +18,7 @@ const App = () => {
           <Route path='/about' element={<About/>} />
           <Route path='/how-it-work' element={<Bot/>} />
           <Route path='/contact' element={<Contact/>} />
+          <Route path='*' element={<PageNotFound/>} />
       </Route>
     )
   )

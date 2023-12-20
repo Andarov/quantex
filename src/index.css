@@ -9,3 +9,7 @@
 nav a.active{
   @apply border-b-2 border-green-800 pb-3
 }
+
+.error{
+  text-shadow: 5px 5px 10px #fff;
+}
