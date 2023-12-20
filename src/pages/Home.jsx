@@ -16,7 +16,7 @@ const Home = () => {
       <Trusted/>
       <Investment/>
       <Info/>
-      {/* <Profitability/> */}
+      <Profitability/>
       {/* <Blog/> */}
       {/* <MainFaq/> */}
     </>

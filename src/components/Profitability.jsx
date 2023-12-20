@@ -5,14 +5,14 @@ import bitcoin from "../img/bitcoin.svg";
 
 const Profitability = () => {
   return (
-    <div className="py-8 grid grid-cols-2 gap-9 items-center">
+    <div className="py-8 grid grid-cols-1 gap-9 items-center xl:grid-cols-2">
       {/* content */}
       <div className="space-y-5">
-        <h2 className="text-4xl font-semibold leading-[90%] text-white/80">
+        <h2 className="text-3xl font-semibold leading-[90%] text-white/80 sm:text-4xl">
           Predicted Profitability at <br /> Various Intervals
         </h2>
-        <p className="text-lg font-medium">
-          <span className="text-white/80">
+        <p className="text-base font-medium sm:text-lg">
+          <span className="text-white/80 text-sm sm:text-base">
             QuantEx promises stable profitability:Daily Yield: <br />
             0.2% - 0.8% per day. <br />
             Monthly Return: 6% - 24%, which can reach 144% per year.
@@ -36,12 +36,12 @@ const Profitability = () => {
             {/* left */}
             <div>
               <div className="flex items-center">
-                <h3 className="text-2xl font-medium text-white/80 leading-7 mr-2">
+                <h3 className="text-xl font-medium text-white/80 leading-7 mr-2 sm:text-2xl">
                   BTC
                 </h3>
                 <img src={bitcoin} alt="" />
               </div>
-              <span className="text-3xl font-medium leading-10">
+              <span className="text-xl font-medium leading-10 sm:text-3xl">
                 $ 16,590.40
               </span>
             </div>
