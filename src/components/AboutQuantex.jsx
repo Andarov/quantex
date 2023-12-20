@@ -16,7 +16,7 @@ const AboutQuantex = () => {
             </p>
             <div className='flex items-center text-sm space-x-3 sm:text-base'>
                 <Link className='px-8 py-3 bg-light-green rounded-lg font-semibold' to='/'>More Info</Link>
-                <Link className='px-8 py-3 bg-light-green rounded-lg font-semibold' to='/'>How Work Bot</Link>
+                <Link className='px-8 py-3 bg-light-green rounded-lg font-semibold' to='/how-it-work'>How Work Bot</Link>
             </div>
         </div>
     </div>
