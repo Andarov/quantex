@@ -37,11 +37,11 @@ const MainFaq = () => {
   };
 
   return (
-    <div className="py-20">
-      <h2 className="text-center text-4xl font-medium leading-[90%] mb-8">FAQ</h2>
+    <div className="py-10 md:py-20">
+      <h2 className="text-center text-3xl font-medium leading-[90%] mb-8 md:text-4xl">FAQ</h2>
 
       {/* grid */}
-      <div className="grid grid-cols-2 gap-10">
+      <div className="grid grid-cols-1 md:gap-10 md:grid-cols-2">
         {/* left */}
         <div>
           {mainFaqs.slice(0, 5).map((faq) => {
