@@ -4,16 +4,17 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="bg-header-bg py-6 shadow-md">
-      <div className="w-full max-w-base mx-auto px-5 flex justify-between items-center">
+      <div className="w-full max-w-base mx-auto px-5">
+        <div className="border-b border-white/20 flex justify-between items-center md:border-nonez">
         <Link to="/" className="text-2xl font-semibold">
           Quantex
         </Link>
 
-        <p className="text-white/20 text-sm font-bold">
+        <p className="text-white/20 text-sm font-bold hidden md:block">
           © 2023 Quantex. All rights reserved
         </p>
 
-        <ul className="flex items-center space-x-2">
+        <ul className="flex items-center space-x-1 md:space-x-2">
           <li>
             <a href="#">
               <svg
@@ -65,6 +66,10 @@ const Footer = () => {
             </a>
           </li>
         </ul>
+        </div>
+        <p className="text-white/20 text-sm font-bold pt-5 block md:hidden">
+          © 2023 Quantex. All rights reserved
+        </p>
       </div>
     </div>
   );
