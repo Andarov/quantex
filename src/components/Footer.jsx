@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="bg-header-bg py-6 shadow-md">
       <div className="w-full max-w-base mx-auto px-5">
-        <div className="border-b border-white/20 flex justify-between items-center md:border-nonez">
+        <div className="border-b border-white/20 flex justify-between items-center md:border-none">
         <Link to="/" className="text-2xl font-semibold">
           Quantex
         </Link>

@@ -17,6 +17,9 @@ module.exports = withMT ({
       },
       maxWidth:{
         'base': '1440px',
+      },
+      backgroundImage: {
+        'contact-bg': "url('./img/contactBg.png')",
       }
     },
   },
