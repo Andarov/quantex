@@ -6,6 +6,9 @@ import { useState } from "react";
 
 const Header = () => {
   const [mobileManu, setMobileMenu] = useState(false);
+  const handleLinkClick = () => {
+    setMobileMenu(false);
+  };
 
   return (
     <div className={`${mobileManu ? "min-h-screen fixed z-50 top-0 left-0 h-full w-full" : ""} flex flex-col`}>
@@ -174,7 +177,7 @@ const Header = () => {
       {mobileManu && (
         <div className="bg-main-bg xl:hidden flex flex-col grow pl-5 pt-6">
           <nav className="flex flex-col space-y-6 grow h-full">
-            <NavLink
+            <NavLink onClick={handleLinkClick}
               className="capitalize inline-flex items-center space-x-2 font-medium text-sm"
               to="/"
             >
@@ -198,7 +201,7 @@ const Header = () => {
               <span>Home page</span>
             </NavLink>
 
-            <NavLink
+            <NavLink onClick={handleLinkClick}
               className="capitalize inline-flex items-center space-x-2 font-medium text-sm"
               to="/news"
             >
@@ -222,7 +225,7 @@ const Header = () => {
               <span>News</span>
             </NavLink>
 
-            <NavLink
+            <NavLink onClick={handleLinkClick}
               className="capitalize inline-flex items-center space-x-2 font-medium text-sm"
               to="/about"
             >
@@ -250,9 +253,9 @@ const Header = () => {
               <span>About Bot</span>
             </NavLink>
 
-            <NavLink
+            <NavLink onClick={handleLinkClick}
               className="capitalize inline-flex items-center space-x-2 font-medium text-sm"
-              to="/how-it-works"
+              to="/how-it-work"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -289,7 +292,7 @@ const Header = () => {
               <span>How This Work</span>
             </NavLink>
 
-            <NavLink
+            <NavLink onClick={handleLinkClick}
               className="capitalize inline-flex items-center space-x-2 font-medium text-sm"
               to="/contact"
             >
