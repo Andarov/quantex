@@ -5,3 +5,7 @@
 .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
   background: #56ab91;
 }
+
+nav a.active{
+  @apply border-b-2 border-green-800 pb-3
+}

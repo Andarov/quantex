@@ -18,7 +18,7 @@ const Header = () => {
           <nav className="hidden xl:block space-x-8">
             <NavLink
               className="capitalize inline-flex items-center space-x-2 font-medium text-sm"
-              to=""
+              to="/"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ const Header = () => {
 
             <NavLink
               className="capitalize inline-flex items-center space-x-2 font-medium text-sm"
-              to=""
+              to="/news"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

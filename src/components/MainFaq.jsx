@@ -37,7 +37,7 @@ const MainFaq = () => {
   };
 
   return (
-    <div className="py-10 md:py-20">
+    <div className="py-8 md:py-16">
       <h2 className="text-center text-3xl font-medium leading-[90%] mb-8 md:text-4xl">FAQ</h2>
 
       {/* grid */}
