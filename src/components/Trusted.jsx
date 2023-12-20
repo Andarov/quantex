@@ -1,16 +1,16 @@
 import React from 'react'
-import logo1 from '../img/logo1.png'
-import logo2 from '../img/logo2.png'
-import logo3 from '../img/logo3.png'
-import logo4 from '../img/logo4.png'
-import logo5 from '../img/logo5.png'
-import logo6 from '../img/logo6.png'
-import logo7 from '../img/logo7.png'
-import logo8 from '../img/logo8.png'
-import logo9 from '../img/logo9.png'
-import logo10 from '../img/logo10.png'
-import logo11 from '../img/logo11.png'
-import logo12 from '../img/logo12.png'
+import Logo1 from '../img/Logo1.png'
+import Logo2 from '../img/Logo2.png'
+import Logo3 from '../img/Logo3.png'
+import Logo4 from '../img/Logo4.png'
+import Logo5 from '../img/Logo5.png'
+import Logo6 from '../img/Logo6.png'
+import Logo7 from '../img/Logo7.png'
+import Logo8 from '../img/Logo8.png'
+import Logo9 from '../img/Logo9.png'
+import Logo10 from '../img/Logo10.png'
+import Logo11 from '../img/Logo11.png'
+import Logo12 from '../img/Logo12.png'
 
 const Trusted = () => {
   return (
@@ -20,40 +20,40 @@ const Trusted = () => {
 
             <ul className='grid gap-10 grid-cols-3 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-10 2xl:grid-cols-12'>
                 <li>
-                    <img src={logo1} alt="Trader" />
+                    <img src={Logo1} alt="Trader" />
                 </li>
                 <li>
-                    <img src={logo2} alt="Trader" />
+                    <img src={Logo2} alt="Trader" />
                 </li>
                 <li>
-                    <img src={logo3} alt="Trader" />
+                    <img src={Logo3} alt="Trader" />
                 </li>
                 <li>
-                    <img src={logo4} alt="Trader" />
+                    <img src={Logo4} alt="Trader" />
                 </li>
                 <li>
-                    <img src={logo5} alt="Trader" />
+                    <img src={Logo5} alt="Trader" />
                 </li>
                 <li>
-                    <img src={logo6} alt="Trader" />
+                    <img src={Logo6} alt="Trader" />
                 </li>
                 <li>
-                    <img src={logo7} alt="Trader" />
+                    <img src={Logo7} alt="Trader" />
                 </li>
                 <li>
-                    <img src={logo8} alt="Trader" />
+                    <img src={Logo8} alt="Trader" />
                 </li>
                 <li>
-                    <img src={logo9} alt="Trader" />
+                    <img src={Logo9} alt="Trader" />
                 </li>
                 <li>
-                    <img src={logo10} alt="Trader" />
+                    <img src={Logo10} alt="Trader" />
                 </li>
                 <li>
-                    <img src={logo11} alt="Trader" />
+                    <img src={Logo11} alt="Trader" />
                 </li>
                 <li>
-                    <img src={logo12} alt="Trader" />
+                    <img src={Logo12} alt="Trader" />
                 </li>
             </ul>
         </div>
