@@ -17,7 +17,7 @@ const Home = () => {
       <Investment/>
       <Info/>
       <Profitability/>
-      {/* <Blog/> */}
+      <Blog/>
       {/* <MainFaq/> */}
     </>
   )

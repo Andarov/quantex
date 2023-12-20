@@ -19,10 +19,18 @@ const Blog = () => {
       </div>
 
       <Swiper
-        slidesPerView={3}
+        slidesPerView={1}
         spaceBetween={30}
         pagination={{
           type: "progressbar",
+        }}
+        breakpoints={{
+          500: {
+            slidesPerView: 2
+          },
+          1024: {
+            slidesPerView: 3
+          }
         }}
         modules={[Pagination]}
         className="mySwiper"
