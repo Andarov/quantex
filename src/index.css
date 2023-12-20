@@ -7,7 +7,7 @@
 }
 
 nav a.active{
-  @apply border-b-2 border-green-800 pb-3
+  @apply border-b-2 border-green-900 pb-3
 }
 
 .error{
