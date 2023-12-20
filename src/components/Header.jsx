@@ -176,7 +176,7 @@ const Header = () => {
           <nav className="flex flex-col space-y-6 grow h-full">
             <NavLink
               className="capitalize inline-flex items-center space-x-2 font-medium text-sm"
-              to=""
+              to="/"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -200,7 +200,7 @@ const Header = () => {
 
             <NavLink
               className="capitalize inline-flex items-center space-x-2 font-medium text-sm"
-              to=""
+              to="/news"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -224,7 +224,7 @@ const Header = () => {
 
             <NavLink
               className="capitalize inline-flex items-center space-x-2 font-medium text-sm"
-              to=""
+              to="/about"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -252,7 +252,7 @@ const Header = () => {
 
             <NavLink
               className="capitalize inline-flex items-center space-x-2 font-medium text-sm"
-              to=""
+              to="/how-it-works"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -291,7 +291,7 @@ const Header = () => {
 
             <NavLink
               className="capitalize inline-flex items-center space-x-2 font-medium text-sm"
-              to=""
+              to="/contact"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
