@@ -94,7 +94,7 @@ const Header = () => {
 
             <NavLink
               className="capitalize inline-flex items-center space-x-2 font-medium text-sm"
-              to=""
+              to="/how-it-work"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
