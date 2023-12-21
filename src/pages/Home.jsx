@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Blog from '../components/Blog'
 import Faq from '../components/Faq'
 import Hero from '../components/Hero'
@@ -9,6 +9,9 @@ import Profitability from '../components/Profitability'
 import Trusted from '../components/Trusted'
 
 const Home = () => {
+  useEffect(()=>{
+    document.title = 'Quantex -  a unique project that combines artificial intelligence and cryptocurrency exchanges.'
+  }, []);
   return (
     <>
       <Hero/>

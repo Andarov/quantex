@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 const Contact = () => {
+    useEffect(()=>{
+        document.title = 'Quantex | Contact'
+      }, []);
   return (
     <div className='flex flex-col justify-center items-center min-h-[400px] space-y-5 bg-contact-bg'>
         <a className='flex items-center text-2xl space-x-2' href="#">
